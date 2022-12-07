@@ -1,3 +1,25 @@
-h1{
-    color: red;
+.main-container {
+    height: 110vh;
+    padding: 10px;
+    background-color: rgb(255, 52, 25);
+}
+
+.nav {
+    height: 40px;
+    background-color: rgb(225, 54, 255);
+}
+
+.box1 {
+    height: 60px;
+    background-color: rgb(54, 255, 54);
+}
+
+.box2 {
+    height: 80px;
+    background-color: rgb(54, 255, 232);
+}
+
+.box3 {
+    height: 110px;
+    background-color: rgb(238, 255, 54);
 }
