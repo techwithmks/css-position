@@ -1,6 +1,7 @@
 body {
     margin: 20px;
     font-family: 'Fira Sans', 'Times New Roman';
+    height: 200vh;
 }
 
 body * {
