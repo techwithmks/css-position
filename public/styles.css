@@ -1,25 +1,26 @@
-.main-container {
-    height: 110vh;
+body {
+    margin: 20px;
+    font-family: 'Fira Sans', 'Times New Roman';
+}
+
+body * {
+    transition: box-shadow 0.5s;
+}
+
+body *:hover {
+    box-shadow: 1px 1px 20px 2px #646464;
+}
+
+.container {
     padding: 10px;
-    background-color: rgb(255, 52, 25);
 }
 
-.nav {
-    height: 40px;
-    background-color: rgb(225, 54, 255);
+.section {
+    font-size: 2rem;
+    font-weight: 700;
 }
 
-.box1 {
-    height: 60px;
-    background-color: rgb(54, 255, 54);
-}
-
-.box2 {
-    height: 80px;
-    background-color: rgb(54, 255, 232);
-}
-
-.box3 {
-    height: 110px;
-    background-color: rgb(238, 255, 54);
+.content {
+    font-size: 1rem;
+    font-weight: 400;
 }
